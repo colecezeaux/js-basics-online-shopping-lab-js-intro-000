@@ -56,7 +56,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  output = "That item is not in your cart."
+  var output = "That item is not in your cart."
   var i;
   for(i = 0; i < cart.length; i++) {
   }
