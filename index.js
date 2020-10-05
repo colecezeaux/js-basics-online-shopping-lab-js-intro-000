@@ -60,7 +60,7 @@ function removeFromCart(item) {
   for(i = 0; i < cart.length; i++) {
     var output = "That item is not in your cart."
   }
-  
+
   return output
 }
 
