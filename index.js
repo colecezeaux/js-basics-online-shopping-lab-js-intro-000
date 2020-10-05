@@ -75,5 +75,6 @@ function placeOrder(cardNumber) {
   } else {
     output = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
   }
+  delete.cart
   return output
 }
