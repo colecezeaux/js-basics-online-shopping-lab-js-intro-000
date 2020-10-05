@@ -68,13 +68,13 @@ function removeFromCart(item) {
 
 function removeFromCart(item) {
   const itemName = []
-    
+
   for(var i = 0; i < cart.length; i++){
     itemName.push(cart[i].itemName)
     }
-  
+
   const index = itemName.indexOf(item)
-  
+
   if(index > -1){
      cart.splice(index, 1)
      return cart
