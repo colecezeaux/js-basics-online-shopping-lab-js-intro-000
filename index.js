@@ -76,7 +76,7 @@ function removeFromCart(item) {
   if(index > -1){
      cart.splice(index, 1)
      output = cart
-  } 
+  }
     return output
 }
 
