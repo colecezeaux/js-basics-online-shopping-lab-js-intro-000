@@ -68,19 +68,16 @@ function removeFromCart(item) {
 
 function removeFromCart(item) {
   const itemName = []
-
+  var output = "That item is not in your cart."
   for(var i = 0; i < cart.length; i++){
     itemName.push(cart[i].itemName)
     }
-
   const index = itemName.indexOf(item)
-
   if(index > -1){
      cart.splice(index, 1)
-     return cart
-  } else {
-    return `That item is not in your cart.`
-  }
+     output = cart
+  } 
+    return output
 }
 
 function placeOrder(cardNumber) {
