@@ -53,19 +53,6 @@ function total() {
   return priceTotal
 }
 
-
-function removeFromCart(item) {
-  // write your code here
-  var output = "That item is not in your cart."
-  var i;
-  for(i = 0; i < cart.length; i++) {
-  }
-  if(item == cart[i]) {
-      output = cart.splice(0, i);
-    }
-    return output
-}
-
 function removeFromCart(item) {
   const itemName = []
   var output = "That item is not in your cart."
