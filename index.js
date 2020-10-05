@@ -60,19 +60,6 @@ function removeFromCart(item) {
   for(i = 0; i < cart.length; i++) {
   }
   if(cart[i].hasOwnProperty(item)) {
-      cart.splice([i], 1);
-      return cart
-    }
-    console.log("That item is not in your cart.")
-    return cart
-}
-
-function removeFromCart(item) {
-  // write your code here
-  var i;
-  for(i = 0; i < cart.length; i++) {
-  }
-  if(item == Object.keys(cart[i])) {
       cart.splice(0, i);
       return cart
     }
