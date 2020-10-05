@@ -54,7 +54,7 @@ function total() {
 }
 
 
-function removeFromCart(itemName) {
+function removeFromCart(item) {
   // write your code here
   var i;
   for(i = 0; i < cart.length; i++) {
