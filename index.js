@@ -61,7 +61,7 @@ function removeFromCart(item) {
   for(i = 0; i < cart.length; i++) {
   }
   if(item === cart[i]) {
-    output = cart[i].splice(0,1)
+    output = cart[i].prototype.splice(0,1)
   }
   return output
 }
