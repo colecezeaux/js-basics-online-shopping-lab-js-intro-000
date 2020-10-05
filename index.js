@@ -60,8 +60,8 @@ function removeFromCart(item) {
   var i;
   for(i = 0; i < cart.length; i++) {
   }
-  if(item === cart[i+1]) {
-    output = cart.splice(0,1)
+  if(item === cart[i]) {
+    output = cart.splice(i,1)
   }
   return output
 }
